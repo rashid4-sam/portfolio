@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="scripts/main.js"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+    (function(){
+    emailjs.init({
+        publicKey: "9IA3qYb6varwHpyu8"
+    });
+    })();
+    </script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-bar-name-text">
+                <div class="first-name">
+                    <h1>Muhd</h1>
+                </div>
+                <div class="second-name">
+                    <h1>Rashid</h1>
+                </div>
+            </div>
+            <div class="nav-details">
+                <ul>
+                    <li><a href="#homepage">Home</a></li>
+                    <li><a href="#about-section">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <button>Get in Touch</button>
+            </div>
+        </nav>
+    </header>
+    <section id="homepage">
+        <div class="profile-photo">
+            <img class="profile-class" src="images/profile-3.jpg">
+        </div>
+        <div class="text-section">  
+            <div class="text-section1">
+                <h1>Hi,I'm Muhammed Rashid Samad-Web devoloper</h1>
+            </div>
+            <div class="text-section2">
+                <h1>I enjoy creating products from 
+                <h1>scratch and improve existing ones.</h1>
+                <h1>In simple terms, I design websites</h1>
+                <h1>that make a profit or enhance business.</h1>    
+            </div>
+        </div>
+    </section>
+   
+    <div id="about-section" class="about-section">
+        <div class="profile-1">
+            <img class="about-img" src="images/profile-5.jpeg">
+        </div>
+        <div class="about-section1">
+            <h1 style="font-size: 44px;font-weight: 600; margin: 0;">Hi,I'm Rashid<img style="height: 33px;" src="images/icons/waving-hand.png"></h1>
+            <p style="font-size: 32px; color: #5B5E76; margin: 0;">your strategic partner for digital solutions</p>
+            <p style="font-size: 20px;width: 100%;">With 8+ years of experience in UI/UX design for B2B, B2C, and C2B platforms across web experiences, I create digital interfaces that are user-centric and align with the strategic objectives of the business, using analytical and data-driven management skills. My design journey began with my graduation in graphic design, which provided me with a solid foundation for creating visually appealing products.</p>
+        </div>
+    </div>
+    <div class="project-section" id="projects">
+        <h1 style="font-size: 44px;font-weight: 600; margin: 0; padding-left: 400px; padding-top: 100px;">My Projects</h1>
+            <!--project-1-->
+        <div class="projects-container">
+            <div class="project-card">
+                <img src="images/Screenshot (10).png">
+                <div class="project-card-text">
+                    <h2 style="padding-left: 75px;">Airbnb-Clone</h2>
+                    <p style="width:300px;"> Airbnb clone, built using HTML and CSS, showcases a static web application designed to mimic the appearance and layout of the Airbnb platform. Key features include a responsive design, interactive elements such as hover effects on property cards, and a well-structured layout for both the homepage and property details.</p>
+                </div>
+            </div>
+    
+
+         <!--project-2-->
+            
+            <div class="project-card">
+                <img src="images/Screenshot (7).png">
+                <div class="project-card-text">
+                    <h2 style="padding-left: 30px;">W3school-nav-Clone</h2>
+                    <p style="width: 300px;"> This navigation bar is designed for simplicity and ease of use, featuring a horizontal layout with clearly defined links. It includes sections for Home, Services, About, and Contact. The bar uses a modern color scheme</p>
+                </div>
+            </div>
+    
+        <!--project-3-->
+            
+            <div class="project-card">
+                <img src="images/Screenshot (15).png">
+                <div class="project-card-text">
+                    <h2 style="padding-left: 35px;">Bank balance tracker</h2>
+                    <p> The Bank Balance Tracker is a simple yet efficient web application designed to help users manage and monitor their bank account balances. This project demonstrates the integration of HTML, CSS, and JavaScript to create a dynamic and user-friendly interface.</p>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <div id="skills" class="skill-section">
+            <div class="skill-text">
+                <h1 style="font-size: 50px; ">Skills</h1>
+            </div>
+            <div class="skills-logo">
+                <div class="skill-pair" id="skill-pair1">
+                    <i class='bx bxl-html5' style="font-size: 200px;"></i>
+                    <p class="skill-text1">HTML</p>
+                </div>
+                <div class="skill-pair" id="skill-pair2">
+                    <i class='bx bxl-css3' style="font-size: 200px"></i>
+                    <p class="skill-text1">CSS</p>
+                </div>
+                <div class="skill-pair" id="skill-pair3">
+                    <i class='bx bxl-javascript' style="font-size: 200px;"></i> 
+                    <p class="skill-text1">JAVASCRIPT</p>           
+                </div>
+            </div>
+    </div>
+    <div class="form-section" id="contact">
+        <h1>Contact Us</h1>
+        <form onsubmit="onclick=sendMail(); return false;">
+            <div class="form-sections">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-sections">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-sections">
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject" required>
+            </div>
+            <div class="form-sections">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <div class="form-button">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+    
+</body>
+</html>

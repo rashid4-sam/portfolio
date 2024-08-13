@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // function countConsonants(str){
+        //     const vowels = 'aeiouAEIOU';
+        //     let consonantCount = 0;
+        //     for(let char of str){
+        //         if(char.match(/[a-zA-Z]/) && !vowels.includes(char)){
+        //             consonantCount++;
+        //         }
+        //     }
+        //     return consonantCount;
+        // }
+        // console.log(countConsonants('bridgeOn'));
+
+
+        // function reverseWords(sentence){
+        //     let wordsArray = sentence.split(' ');
+        //     let reversedArray = wordsArray.reverse();
+        //     let reversedSentence = reversedArray.join(' ');
+        //     return reversedSentence;
+        // }
+        // console.log(reverseWords('Hello World'));
+
+        function countWords(sentence){
+            let trimmedSentence = sentence.trim();
+            let wordsArray = sentence.split(/\s+/);
+            return wordsArray.length;
+        }
+        console.log(countWords("i'm muhammed rashid Samad"));
+        
+    </script>
+</body>
+</html>
